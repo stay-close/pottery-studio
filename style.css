@@ -205,7 +205,7 @@ FOOTER AREA CSS START
 ===================== */
 
 .footer_area {
-    height: 430px;
+    height: 465px;
     text-align: center;
     background: #1e1d1b;
     color: #fff;
@@ -218,6 +218,10 @@ FOOTER AREA CSS START
 
 .footer_details {
     padding: 105px 350px;
+}
+
+.footer_details form {
+    margin-top: 30px;
 }
 
 .footer_details form input {
