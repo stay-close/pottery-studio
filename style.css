@@ -1,0 +1,232 @@
+/* ========================
+GLOBAL CSS START
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button.default_btn {
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-size: 16px;
+    background: #fdb467;
+    color: #000;
+    border: 0;
+    margin-top: 25px;
+}
+
+.heading_text {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+p {
+    font-weight: 300;
+    line-height: 25px;
+}
+
+
+/* ========================
+GLOBAL CSS END
+========================= */
+
+
+/* ====================
+HEADER AREA CSS START
+===================== */
+
+.header_area {
+    padding: 285px 120px;
+    color: #fff;
+    background: url('./img/Image_1.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.header_text {
+    width: 435px;
+}
+
+.header_area .header_text h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.header_area .header_text p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+/* ====================
+HEADER AREA CSS END
+===================== */
+
+
+/* ====================
+ABOUT US AREA CSS START
+===================== */
+
+.about_us_area {
+    clear: both;
+}
+
+.about_studio {
+    padding: 120px;
+    float: left;
+    width: 50%;
+    background: #272624;
+    color: #fff;
+    text-align: center;
+    height: 400px;
+}
+
+.registration_area {
+    float: right;
+    width: 50%;
+    color: #fff;
+    background: #1e1d1b;
+    padding: 120px;
+    text-align: center;
+    height: 400px;
+    text-transform: capitalize;
+}
+
+.registration_area button {
+    margin-top: 25px;
+}
+
+
+/* ====================
+ABOUT US AREA CSS END
+===================== */
+
+
+/* ====================
+WORKSHOP AREA CSS START
+===================== */
+
+.workshop_area {
+    clear: both;
+    height: 656px;
+}
+
+.workshop_details {
+    float: left;
+    width: 35%;
+    padding: 170px 45px 159px 70px;
+}
+
+.workshop_img .img_box {
+    float: right;
+    width: 65%;
+    height: 656px;
+}
+
+.workshop_img .img_box img {
+    width: 987.5px;
+    height: 656px;
+}
+
+
+/* ====================
+WORKSHOP AREA CSS END
+===================== */
+
+
+/* ====================
+MEMBERSHIP AREA CSS START
+===================== */
+
+.membership_area {
+    clear: both;
+}
+
+.area_img {
+    float: left;
+    width: 65%;
+    height: 656px;
+}
+
+.membership_details {
+    float: right;
+    width: 35%;
+    padding: 190px 50px;
+    height: 656px;
+}
+
+
+/* ====================
+MEMBERSHIP AREA CSS end
+===================== */
+
+
+/* ====================
+STUDENT COMMENT AREA CSS start
+===================== */
+
+.student_comment_area {
+    clear: both;
+    background: url('./img/Image_4.png');
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.student_comment {
+    width: 500px;
+    background: #eee9e5;
+    padding: 100px 50px;
+    position: absolute;
+    bottom: -13%;
+    left: 20%;
+}
+
+.student_comment h4 {
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+
+/* ====================
+STUDENT COMMENT AREA CSS end
+===================== */
+
+
+/* ====================
+FOOTER AREA CSS START
+===================== */
+
+.footer_area {
+    height: 430px;
+    text-align: center;
+    background: #1e1d1b;
+    color: #fff;
+    padding-top: 65.5px;
+}
+
+.footer_content {
+    border-top: 1px solid #393836;
+}
+
+.footer_details {
+    padding: 105px 350px;
+}
+
+.footer_details form input {
+    padding: 10px 5px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+
+/* ====================
+FOOTER AREA CSS END
+===================== */
